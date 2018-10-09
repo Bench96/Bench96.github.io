@@ -1,0 +1,53 @@
+/* Home page */
+
+.banner-area {
+    background-image: url('../img/splash.jpg');
+    background-size: cover;
+}
+
+.banner-area > .overlay-bg {
+    background-color: rgba(4, 9, 30, 0.4);
+}
+
+.banner-content {
+    text-align: right;
+}
+
+#custom-logo-image {
+    width: 150px;
+    transition: 0.295s;
+}
+
+.custom-slogan {
+    color: white;
+}
+
+.custom-slogan > span {
+    background-color: #f7631b;
+}
+
+.custom-vision-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.custom-vision-text:nth-child(2) {
+    border-right: 2px solid #f7631b;
+}
+
+.custom-vision-text:nth-child(1) {
+    border-left: 2px solid #f7631b;
+}
+
+.custom-footer-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/* Sponsors */
+
+.custom-main-menu {
+    border-bottom: none;
+}
