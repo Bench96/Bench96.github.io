@@ -21,6 +21,10 @@
 .custom-slogan {
     color: white;
 }
+#contact-us
+{
+    background-color: lightgrey;
+}
 
 .custom-slogan > span {
     background-color: #f7631b;
@@ -51,3 +55,75 @@
 .custom-main-menu {
     border-bottom: none;
 }
+#leafmap
+{
+    height: 350px;
+    /*width: 600px;*/
+}
+.head3
+{
+    padding-left: 5px;
+}
+.contactitem
+{
+    margin-top: 15px;
+}
+.contact-text
+{
+    font-size: 14pt;
+    font-weight: bold;
+    color: black;
+}
+.contact-desc
+{
+    font-size: 14pt;
+    
+    color: black;
+}
+/*carousel*/
+.carouselimg img {
+    padding-left: 150px;
+  width: auto;
+  height: 150px;
+  max-height: 150px;
+}
+ 
+ .demo .item{
+            
+  margin-left: 150px;
+            margin-bottom: 10px;
+            object-fit: scale-down;
+
+        }
+ .content-slider li{
+            background-color: #ed3020;
+            text-align: center;
+            color: #FFF;
+        }
+        .content-slider h3 {
+            margin: 0;
+            padding: 70px 0;
+        }
+        .demo{
+            
+           /* width: 1000px;*/
+            height: 500px;
+
+        }
+        .filler
+        {
+            height: 30px;
+            background-color:#04091e;
+        }
+#image-gallery{
+    object-fit: scale-down;
+    margin-left: 100px;
+}
+
+.carousel-inner .active.left  { left: -33%;             }
+.carousel-inner .active.right { left: 33%;              }
+.carousel-inner .next         { left: 33%               }
+.carousel-inner .prev         { left: -33%              }
+.carousel-control.left        { background-image: none; }
+.carousel-control.right       { background-image: none; }
+.carousel-inner .item         { background: white;      }
