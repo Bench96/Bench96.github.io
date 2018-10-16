@@ -30,9 +30,201 @@
     <link rel="stylesheet" href="css/owl.carousel.css">
     <link rel="stylesheet" href="css/jquery-ui.css">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="css/lightslider.css" />                  
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+
+        <script>
+         $(document).ready(function() {
+            $('#image-gallery').lightSlider({
+                gallery:true,
+                item:1,
+                thumbItem:9,
+                slideMargin: 0,
+                speed:500,
+                auto:true,
+                loop:true,
+                onSliderLoad: function() {
+                    $('#image-gallery').removeClass('cS-hidden');
+                }  
+            });
+        });
+    </script>
+    <style type="text/css"> 
+     ul{
+            list-style: none outside none;
+            padding-left: 0;
+            margin: 0;
+ }</style>
 </head>
 
 <body>
+
+    <header id="header" id="home">
+        <div class="header-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-sm-6 col-8 header-top-left no-padding">
+                        <ul>
+                            <!-- Social Media Icons  -->
+                        </ul>
+                    </div>
+                    <div class="col-lg-6 col-sm-6 col-4 header-top-right no-padding">
+                        <a href="tel:+27 12 801 9690"><span class="lnr lnr-phone-handset"></span> <span class="text">+27
+                                12 801 9690</span></a>
+                        <a href="mailto: nwavanganip@gmail.com"><span class="lnr lnr-envelope"></span> <span class="text">
+                                nwavanganip@gmail.com</span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container main-menu custom-main-menu">
+            <div class="row align-items-center justify-content-between d-flex">
+                <div id="logo">
+                    <a href="index.html"><img id="custom-logo-image" src="img/logo.png" alt="" title="" /></a>
+                </div>
+                <nav id="nav-menu-container">
+                    <ul class="nav-menu">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="sponsors.html">Sponsors</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav><!-- #nav-menu-container -->
+            </div>
+        </div>
+    </header><!-- #header -->
+
+    <!-- start banner Area -->
+    <section class="banner-area relative about-banner" id="home">
+        <div class="overlay overlay-bg"></div>
+        <div class="container">
+            <div class="row d-flex align-items-center justify-content-center">
+                <div class="about-content col-lg-12">
+                    <h1 class="text-white">
+                        Gallery
+                    </h1>
+                    <!-- <p class="text-white link-nav"><a href="index.html">Home </a> <span class="lnr lnr-arrow-right"></span>
+                        <a href="events.html"> Events</a></p> -->
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End banner Area -->
+ <!-- Start gallery Area -->
+<section class="filler"></section>
+ <section class="demo" style=" background-color:#04091e;"> 
+<div class="demo"   style="background-color:#04091e">
+        <div class="item">            
+            <div class="clearfix" style="max-width:1000px; max-height:350px;">
+                <ul id="image-gallery" class="gallery list-unstyled cS-hidden">
+                    <li data-thumb="img/1.jpg"> 
+                        <img src="img/1.jpg" style="margin-left: 120px; height:450px;object-fit: scale-down;"/>
+                         </li>
+                  <li data-thumb="img/10.jpg" > 
+                        <img src="img/10.jpg" style="margin-left: 120px;height:450px;object-fit: scale-down;" />
+                         </li>
+                  <li data-thumb="img/11.jpg" > 
+                        <img src="img/11.jpg" style="margin-left: 120px;height:450px;object-fit: scale-down;"/>
+                         </li>
+                   <li data-thumb="img/12.jpg" > 
+                        <img src="img/12.jpg" style="margin-left: 120px;height:450px;object-fit: scale-down;"/>
+                         </li>
+                          <li data-thumb="img/103.jpg" > 
+                        <img src="img/103.jpg" style="margin-left: 120px;height:450px;object-fit: scale-down;" />
+                         </li>
+                          <li data-thumb="img/104.jpg" > 
+                        <img src="img/104.jpg" style="margin-left: 120px;height:450px;object-fit: scale-down;" />
+                         </li>
+                          <li data-thumb="img/105.jpg" > 
+                        <img src="img/105.jpg" style="margin-left: 120px; height:450px;object-fit: scale-down;" />
+                         </li> <li data-thumb="img/100.jpg" > 
+                        <img src="img/100.jpg" style="margin-left: 120px;height:450px;object-fit: scale-down;" />
+                         </li>
+                          <li data-thumb="img/101.jpg" > 
+                        <img src="img/101.jpg" style="margin-left: 120px;height:450px;object-fit: scale-down;" />
+                         </li>
+                          <li data-thumb="img/102.jpg" > 
+                        <img src="img/102.jpg" style="margin-left: 120px;height:450px;object-fit: scale-down;" />
+                         </li>
+                          <li data-thumb="img/114.jpg" > 
+                        <img src="img/114.jpg" style="margin-left: 120px;height:450px;object-fit: scale-down;" />
+                         </li>
+                          <li data-thumb="img/119.jpg" > 
+                        <img src="img/119.jpg" style="margin-left: 120px;height:450px;object-fit: scale-down;" />
+                         </li>
+                           <li data-thumb="img/121.jpg" > 
+                        <img src="img/121.jpg" style="margin-left: 120px;height:450px;object-fit: scale-down;" />
+                         </li>
+                           <li data-thumb="img/122.jpg" > 
+                        <img src="img/122.jpg" style="margin-left: 120px;height:450px;object-fit: scale-down;" />
+                         </li>
+                           <li data-thumb="img/130.jpg" > 
+                        <img src="img/130.jpg" style="margin-left: 120px;height:450px;object-fit: scale-down;" />
+                         </li>
+                           <li data-thumb="img/145.jpg" > 
+                        <img src="img/145.jpg" style="margin-left: 120px;height:450px;object-fit: scale-down;" />
+                         </li>
+
+
+
+                    
+                </ul>
+            </div>
+        </div>
+ </section>
+
+
+    <!-- start footer Area -->
+    <footer class="footer-area section-gap">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-4">
+                    <div class="single-footer-widget">
+                        <h4>Quick links</h4>
+                        <ul>
+                            <li><a href="">Home</a></li>
+                            <li><a href="./gallery.html">Gallery</a></li>
+                            <li><a href="./sponsors.html">Sponsors</a></li>
+                            <li><a href="./contact.html">Contact Us</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4">
+                    <div class="single-footer-widget">
+                        <h4>Sponsors</h4>
+                        <ul>
+                            <li>University of Pretoria - JCP</li>
+                            <li>Hennopspark Laerskool</li>
+                            <li>The Department of Basic Education</li>
+                            <li>The Rotary Club</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4">
+                    <div class="single-footer-widget">
+                        <h4>Contact Us</h4>
+                        <ul>
+                            <li><a href="tel:+27 12 801 9690"><span class="lnr lnr-phone-handset"></span> <span class="text">+27
+                                        12 801 9690</span></a></li>
+                            <li><a href="mailto: nwavanganip@gmail.com"><span class="lnr lnr-envelope"></span> <span
+                                        class="text">
+                                        nwavanganip@gmail.com</span></a></li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+            <div class="footer-bottom row align-items-center justify-content-between">
+                <p class="footer-text m-0 col-lg-6 col-md-12">
+                    <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                    Copyright &copy;
+                    <script>document.write(new Date().getFullYear());</script> All rights reserved
+                    <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                </p>
+            </div>
+        </div>
+    </footer>
 
     <!-- Body content here -->
 
@@ -51,6 +243,16 @@
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/mail-script.js"></script>
     <script src="js/main.js"></script>
+    <script src="js/custom.js"></script>
+    <script  type="text/javascript" src="js/lightslider.js"></script>
 </body>
 
 </html>
+
+
+
+
+
+
+
+
